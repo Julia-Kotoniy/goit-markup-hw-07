@@ -12,7 +12,7 @@
   font-size: 36px;
   line-height: 1.167;
 
-  color: getColor(title-text);
+  color: var(--title-text);
 }
 
 .clients__set {
@@ -42,8 +42,8 @@
 
   &:hover,
   &:focus {
-    border: 1px solid getColor(accent);
-    color: getColor(accent);
+    border: 1px solid var(--accent);
+    color: var(--accent);
   }
 }
 

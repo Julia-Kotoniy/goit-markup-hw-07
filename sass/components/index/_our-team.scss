@@ -6,7 +6,7 @@
   padding-bottom: 94px;
   text-align: center;
 
-  background-color: getColor(secondary-back);
+  background-color: var(--secondary-back);
 }
 
 .our-team__title {
@@ -16,7 +16,7 @@
   font-size: 36px;
   line-height: 42px;
 
-  color: getColor(title-text);
+  color: var(--title-text);
 }
 
 .cards {
@@ -33,7 +33,7 @@
   text-align: center;
   padding-bottom: 30px;
 
-  background-color: getColor(primary-back);
+  background-color: var(--primary-back);
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -53,7 +53,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.188;
-  color: getColor(title-text);
+  color: var(--title-text);
 }
 
 .cards__text {
@@ -61,7 +61,7 @@
 
   font-size: 16px;
   line-height: 1.188;
-  color: getColor(grey-text);
+  color: var(--grey-text);
 }
 
 .media {
@@ -94,7 +94,7 @@
 
   &:hover,
   &:focus {
-    background-color: getColor(accent);
+    background-color: var(--accent);
     color: rgba(255, 255, 255, 1);
   }
 }

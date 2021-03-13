@@ -3,7 +3,7 @@
 @import '../components/header';
 
 .footer {
-  background-color: getColor(footer-back);
+  background-color: var(--footer-back);
 
   padding-top: 60px;
   padding-bottom: 60px;
@@ -18,7 +18,7 @@
   display: inline-block;
   margin-bottom: 20px;
 
-  color: getColor(white-text);
+  color: var(--white-text);
 
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -35,7 +35,7 @@
   font-size: 14px;
   line-height: 1.714;
 
-  color: getColor(white-text);
+  color: var(--white-text);
 }
 
 .address-contacts {
@@ -63,7 +63,7 @@
   line-height: 1.143;
   text-transform: uppercase;
 
-  color: getColor(white-text);
+  color: var(--white-text);
 }
 
 .join-media {
@@ -91,7 +91,7 @@
 
   &:hover,
   &:focus {
-    background-color: getColor(accent);
+    background-color: var(--accent);
   }
 }
 
@@ -121,7 +121,7 @@
 
   text-transform: uppercase;
 
-  color: getColor(white-text);
+  color: var(--white-text);
 }
 
 .sub__input {
@@ -171,8 +171,8 @@
   line-height: 1.875;
   letter-spacing: 0.06em;
 
-  color: getColor(white-text);
-  background-color: getColor(accent);
+  color: var(--white-text);
+  background-color: var(--accent);
 
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
