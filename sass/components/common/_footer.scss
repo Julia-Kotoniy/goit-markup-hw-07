@@ -11,7 +11,7 @@
   align-items: baseline;
 }
 
-.nav__logo--end {
+.page-nav__logo--end {
   display: inline-block;
   margin-bottom: 20px;
 
@@ -63,17 +63,17 @@
   color: var(--white-text);
 }
 
-.join-media {
+.join-social {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.join-media__item + .join-media__item {
+.join-social__item + .join-social__item {
   margin-left: 10px;
 }
 
-.join-media__link {
+.join-social__link {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -92,7 +92,7 @@
   }
 }
 
-.join-media__icon {
+.join-social__icon {
   fill: currentColor;
 }
 

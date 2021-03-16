@@ -183,7 +183,7 @@
   color: var(--accent);
 }
 
-.form__check {
+.check__input {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -207,11 +207,11 @@
   }
 }
 
-.form__check:checked + .check__icon {
+.check__input:checked + .check__icon {
   border: none;
 }
 
-.form__check:checked + .check__icon use {
+.check__input:checked + .check__icon use {
   display: block;
 }
 

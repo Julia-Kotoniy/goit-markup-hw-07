@@ -3,13 +3,13 @@
   border-bottom: 1px solid var(--header-border);
 }
 
-.nav {
+.page-nav {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.nav__logo--start {
+.page-nav__logo--start {
   margin-right: 93px;
 
   color: rgba(0, 0, 0, 1);
@@ -20,11 +20,11 @@
   line-height: 1.192;
 }
 
-.nav__web {
+.page-nav__web {
   color: var(--accent);
 }
 
-.page-nav {
+.page-nav__list {
   display: flex;
   justify-content: center;
   align-items: center;
